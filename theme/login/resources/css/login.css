@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=block');
+
 body, html {
+  font-family: 'Titillium Web', sans-serif;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -13,94 +16,98 @@ body {
   margin: 0;
 }
 .login-content {
-  background-size:cover;
-  background-position:center;
+  background-size: cover;
   min-height: 100%;
   min-width: 320px;
   display:flex;
   justify-content:center;
   flex-direction:column;
 }
+
 .login-content .box {
   width: 448px;
+  height: 362px;
   border-radius: 8px;
   background-color: #ffffff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 5px 5px 3px -2px #00000070;
   margin: auto;
 }
 .login-content .box .box-container {
   width:100%;
-  padding-left: 32px;
 }
 .login-content .box .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  width: 380px;
 }
 .login-content .box .application-name {
-  width: 270px;
-  font-family: Muli;
-  font-size: 24px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
+  font-size: 20px;
   line-height: 0.83;
   letter-spacing: -0.4px;
-  text-align: left;
+  text-align: center;
   color: #0055B8;
-  margin-left: 32px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .login-content .box .form {
-  margin-left: 32px;
   margin-top: 55px;
   margin-bottom: -55px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .login-content .box .login-field {
   width: 320px;
   height: 24px;
-  font-family: Muli;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
+  font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
   letter-spacing: -0.4px;
   text-align: left;
   color: #000000;
   border: none;
-  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 1px 0px 0px #ccc;
   outline: none;
   background-color: #fff;
+  display: block;
+  margin: auto;
 }
 .login-content .box input[type="text"]:focus, .login-content .box input[type="password"]:focus {
-  border-bottom: 2px solid #0055B8;
+  box-shadow: 0px 2px 0px 0px #ccc;
 }
 .login-content .box input[type="text"]:-webkit-autofill, .login-content .box input[type="password"]:-webkit-autofill
 {
   box-shadow: 0 0 0px 1000px white inset;
 }
 .login-content .box .submit{
+  box-shadow: none;
   width: 320px;
   height: 36px;
-  border-radius: 2px;
-  background-color: #00754a;
-  font-family: Muli;
-  font-size: 14px;
-  font-weight: bold;
+  background-color: rgba(0,212,254, 0.8);
+  font-size: 16px;
   font-style: normal;
   font-stretch: normal;
+  font-family: 'Titillium Web', sans-serif;
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
-  border-style: none;
-  margin-top: 60px;
+  color: #0055B8;
+  margin-top: 40px;
   margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
 }
+
+.login-content .box .submit:hover{
+  background-color: rgba(0,212,254, 1);
+}
+
 .login-content .box .visibility {
   position: relative;
-  left: 296px;
+  left: 350px;
   top: 20px;
   width: 24px;
   height: 24px;
@@ -108,19 +115,21 @@ body {
   border: none;
 }
 .login-content .box .copyright {
+  color: #ffffff;
   min-width: 320px;
+  justify-content: center;
   text-align: center;
   font-size: 14px;
-  opacity: .54;
+  opacity: .50;
   position: relative;
   top: 50px;
 }
 .message-text {
+  float: left;
   width: 322px;
   height: 22px;
   opacity: 0.87;
-  font-family: Muli;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -130,14 +139,13 @@ body {
   color: #b8082a;
   border: 0px;
   position: relative;
-  top: 180px;
+  top: 142px;
   left: 64px;
   display: inline-flex;
   align-items: center;
 }
 .identity-providers {
   width: 270px;
-  font-family: Muli;
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
@@ -155,7 +163,6 @@ body {
   height: 36px;
   border-radius: 2px;
   background-color: var(--white);
-  font-family: Muli;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -163,16 +170,15 @@ body {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #00754a;
+  color: #00d4fe;
   border-style: solid;
-  border-color: #00754a;
+  border-color: #00d4fe;
   margin-top: 0px;
   margin-left: 30px;
   margin-bottom: 10px;
 }
 
 .login-content .box .para {
-  font-family: Muli;
   font-size: 14px;
   margin-left: 30px;
 }
