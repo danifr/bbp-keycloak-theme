@@ -10,11 +10,11 @@
 </style>
 <g id="Background" transform="translate(27.25 68)">
 	
-		<linearGradient id="BKG_1_" gradientUnits="userSpaceOnUse" x1="1932.6246" y1="-0.9575" x2="1933.6777" y2="0.1955" gradientTransform="matrix(1965 0 0 1081 -3797339.5 1132)">
+		<linearGradient id="BKG_1_" gradientUnits="userSpaceOnUse" x1="4831.3574" y1="596.5286" x2="4832.4111" y2="595.3749" gradientTransform="matrix(1965 0 0 -1081 -9493349 644944)">
 		<stop  offset="0" style="stop-color:#3F19AA"/>
 		<stop  offset="1" style="stop-color:#00D4FE"/>
 	</linearGradient>
-	<rect id="BKG" x="-26.8" y="-68" class="st0" width="2080.6" height="1228"/>
+	<rect id="BKG" x="-27.2" y="-68" class="st0" width="2083.1" height="1228"/>
 	<g id="Groupe_119" transform="translate(0 -140)">
 		<g id="Groupe_117" transform="translate(-1323.183 709.449)" class="st1">
 			<circle id="Ellipse_6" class="st2" cx="1346.2" cy="-634.3" r="2.7"/>
