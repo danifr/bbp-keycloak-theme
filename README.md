@@ -2,7 +2,7 @@
 
 ## Overview
 
-This theme is heavily based on [Alfresco Keycloak Theme](https://travis-ci.com/Alfresco/alfresco-keycloak-theme), 
+This theme is basically a fork of the [Alfresco Keycloak Theme](https://github.com/Alfresco/alfresco-keycloak-theme),
 if you like what you see, you can refer to them as they are the original creators.
 
 
