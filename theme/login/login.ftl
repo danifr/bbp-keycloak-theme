@@ -29,7 +29,7 @@
         <#if realm.password>
             <div>
                <form id="kc-form-login" class="form" onsubmit="return true;" action="${url.loginAction}" method="post">
-                    <input id="username" class="login-field" placeholder="${msg("username")}" type="text" name="username" tabindex="1">
+                    <input id="username" class="login-field" placeholder="${msg("username")}" type="text" name="username" tabindex="1" autofocus>
                     <div>
                         <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>
